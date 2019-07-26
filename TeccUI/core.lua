@@ -1,6 +1,6 @@
--- some code
+-----------------------------------------------------------
+-------------------- basic slash commands -----------------
 
--- basic slash commands
 SLASH_RELOADUI1 = "/rl"
 Slash.CmdList.RELOADUI = ReloadUI
 
@@ -13,6 +13,8 @@ end
 for i = 1, NUM_CHAT_WINDOWS do
 	_G["ChatFrame"..i.."EditBox"]:SetAltArrowKeyMode(false)
 end
+
+-----------------------------------------------------------
 
 
 message('Hello World!')
