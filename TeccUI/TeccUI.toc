@@ -1,8 +1,9 @@
-## Interface: 80201
-## Title: TeccUI
+## Interface: 11302
+## Title: Tecc|cffCC3333 UI|r
 ## Notes: Addon infos
 ## Author: Dennis Herrmann
 ## Version: 0.1
 ## Dependencies: none
+## SavedVariables: TeccUI
 
 core.lua
