@@ -55,7 +55,7 @@ function Slash.CmdList.GETRAIDGUID.getLowestGuid()
     end;
 
     -- this uses an custom sorting function ordering by score descending
-    for k,v in spairs(members, function(t,a,b) return t[b] < t[a] end) do
+    for k,v in spairs(members, function(t,a,b) return members[b] < members[a] end) do
         print(k,v)
     end
 
