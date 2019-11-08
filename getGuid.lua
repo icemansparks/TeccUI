@@ -24,8 +24,8 @@ function spairs(t, order)
     end
 end
 
-function Slash.CmdList.GETGUID.guid()
-    print(pguid=string.sub(UnitGUID(PlayerName), -8))
+function Slash.CmdList.GETGUID.getPlayerGuid()
+    print(string.sub(UnitGUID(PlayerName), -8))
 end
 
 
