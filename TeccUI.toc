@@ -7,3 +7,4 @@
 ## SavedVariables: TeccUI
 
 core.lua
+getGuid.lua
