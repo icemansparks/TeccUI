@@ -24,14 +24,13 @@ function spairs(t, order)
     end
 end
 
-
 function Slash.CmdList.GETGUID.guid()
     print(pguid=string.sub(UnitGUID(PlayerName), -8))
 end
 
 
 function Slash.CmdList.GETRAIDGUID.getLowestGuid()
-    tankbuddy="[Lowest GUID]: "
+    tankbuddy="[Lowest GUID]: ";
 
     -- table initialization
     members = {}
@@ -48,12 +47,12 @@ function Slash.CmdList.GETRAIDGUID.getLowestGuid()
         -- Player-Server-GUID
         -- substring needed (last 8 characters)
         -- string.sub("Hello Lua user", -8) 
-        pguid=string.sub(UnitGUID(pname), -8)
+        pguid=tonumber(string.sub(UnitGUID(pname), -8),16)
 
         -- write guid to table
         members[i]= pguid
         
-    end
+    end;
 
     -- this uses an custom sorting function ordering by score descending
     for k,v in spairs(members, function(t,a,b) return t[b] < t[a] end) do
