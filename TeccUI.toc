@@ -3,7 +3,7 @@
 ## Notes: Addon infos
 ## Author: Dennis Herrmann
 ## Version: 0.1
-## Dependencies: none
+## Dependencies:
 ## SavedVariables: TeccUI
 
 core.lua
