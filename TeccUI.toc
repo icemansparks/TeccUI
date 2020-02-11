@@ -1,5 +1,5 @@
 ## Interface: 11302
-## Title: Tecc|cffCC3333 UI|r
+## Title: |cffffd200Tecc|cffCC3333 UI|r
 ## Notes: Addon infos
 ## Author: Dennis Herrmann
 ## Version: 0.1

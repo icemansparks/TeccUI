@@ -35,3 +35,10 @@ end
 -----------------------------------------------------------
 
 --message('Hello World!')
+
+
+local soundChannels = tonumber(GetCVar("Sound_NumChannels")) or 24--if set to 24, may return nil, Defaults usually do
+--If this messes with your fps, stop raiding with a toaster. It's only fix for addon sound ducking.
+if soundChannels > 48 then
+	SetCVar("Sound_NumChannels", 48)
+end
